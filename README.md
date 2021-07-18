@@ -64,3 +64,13 @@ Epoch 5
 Train | Loss:0.40156 Acc: 81.538  
 Valid | Loss:0.42488 Acc: 79.951   
 saving model with acc 79.951  
+
+
+## Testing Result  
+
+0,my dog ate our dinner . no , seriously ... he ate it .   -> 0  
+1,omg last day sooon n of primary noooooo x im gona be swimming out of school wif the amount of tears am gona cry -> 0  
+2,stupid boys .. they ' re so .. stupid !   ->0  
+3,hi ! do u know if the nurburgring is open for tourists today ? we want to go , but there is an event today -> 1  
+4,having lunch in the office , and thinking of how to resolve this discount form issue  -> 1  
+5,shopping was fun  ->1  
