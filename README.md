@@ -41,28 +41,27 @@ There are three files in the dataset:
 
 ## The training process:
 start training, parameter total:6415351, trainable:241351  
-start training, parameter total:6415351, trainable:241351
 [Epoch 1]
-Train | Loss:0.49571 Acc: 75.343
-Valid | Loss:0.45264 Acc: 78.652 
-saving model with acc 78.652
+Train | Loss:0.49571 Acc: 75.343  
+Valid | Loss:0.45264 Acc: 78.652   
+saving model with acc 78.652  
 -----------------------------------------------
-[Epoch 2]
-Train | Loss:0.44404 Acc: 79.132
-Valid | Loss:0.43643 Acc: 79.215 
-saving model with acc 79.215
+[Epoch 2]  
+Train | Loss:0.44404 Acc: 79.132  
+Valid | Loss:0.43643 Acc: 79.215   
+saving model with acc 79.215  
 -----------------------------------------------
-[Epoch 3]
-Train | Loss:0.42707 Acc: 80.055
-Valid | Loss:0.42880 Acc: 79.852 
-saving model with acc 79.852
+[Epoch 3]  
+Train | Loss:0.42707 Acc: 80.055  
+Valid | Loss:0.42880 Acc: 79.852   
+saving model with acc 79.852  
 -----------------------------------------------
-[Epoch 4]
-Train | Loss:0.41364 Acc: 80.867
-Valid | Loss:0.42656 Acc: 79.847 
+[Epoch 4]  
+Train | Loss:0.41364 Acc: 80.867  
+Valid | Loss:0.42656 Acc: 79.847   
 -----------------------------------------------
-[Epoch 5]
-Train | Loss:0.40156 Acc: 81.538
-Valid | Loss:0.42488 Acc: 79.951 
-saving model with acc 79.951
+[Epoch 5]  
+Train | Loss:0.40156 Acc: 81.538  
+Valid | Loss:0.42488 Acc: 79.951   
+saving model with acc 79.951  
 -----------------------------------------------
