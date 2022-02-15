@@ -43,9 +43,9 @@ Label 1 means the sentence contains positive mood (happy etc.
 Label 0 means the sentence contains negative mood ( sad, angry etc.)  
 
 ## Result:
-|\  |LSTM|BiLSTM|Transformer Encoder|
-|---|----|------|-------------------|
-|Acc|    |      |                   |
+| |LSTM|BiLSTM|Transformer Encoder|
+|---|----|---|---|
+|Score| 81.5|      |                   |
 
 ## Result Sample  
 
