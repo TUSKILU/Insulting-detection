@@ -1,6 +1,6 @@
 # Negative Comment Detection
 
-This work here is a process of understanding NLP model structure and Pytorch API through implementation practice.
+This work here is a practice to understand and implement NLP model in an online course.
 
 LSTM, BiLSTM, and Transformer Encoder layer is applied to extract the fearture from every comment.
 After that the NN model is exploited to do binary classification on extracted feature.
