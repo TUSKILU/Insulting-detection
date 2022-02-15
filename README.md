@@ -44,7 +44,8 @@ Label 0 means the sentence contains negative mood ( sad, angry etc.)
 
 ## Result:
 |\  |LSTM|BiLSTM|Transformer Encoder|
-|Acc|--- |------|-------------------|
+|---|----|------|-------------------|
+|Acc|    |      |                   |
 
 ## Result Sample  
 
