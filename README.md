@@ -1,13 +1,13 @@
-# Sentence mood-detection
+# Negative Comment Detection
 
-This is a lesson practice and the sample code is　from Course of <a href="https://speech.ee.ntu.edu.tw/~tlkagk/courses.html">Professor Haungyi Lee in NTU</a>.
 This work here is a process of understanding NLP model structure and Pytorch API through implementation practice.
 
-We use LSTM model and word embedding to accomplish the training model.
-Label 1 means the sentence contains positive mood (happy etc.  
-Label 0 means the sentence contains negative mood ( sad, angry etc.)  
+LSTM, BiLSTM, and Transformer Encoder layer is applied to extract the fearture from every comment.
+After that the NN model is exploited to do binary classification on extracted feature.
+In this prohect, gensim Library is applied to perform Word2Vec embedding process.
 
 ## Data description
+
 There are three files in the dataset:
 1. Training data with label:  
   0 +++$+++ i dont need love . true true story . or am i just saying that because my heart isn ' t working anymore ......  
@@ -39,34 +39,14 @@ There are three files in the dataset:
   8,umm ... maybe that ' s how the british spell it ?  
   9,yes it ' s 3 : 50 am . yes i ' m still awake . yes i can ' t sleep . yes i ' ll regret it tomorrow . haha i love you mr saturday  
 
-## The training process:
-start training, parameter total:6415351, trainable:241351  
-Epoch 1
-Train | Loss:0.49571 Acc: 75.343  
-Valid | Loss:0.45264 Acc: 78.652   
-saving model with acc 78.652  
+Label 1 means the sentence contains positive mood (happy etc.  
+Label 0 means the sentence contains negative mood ( sad, angry etc.)  
 
-Epoch 2  
-Train | Loss:0.44404 Acc: 79.132  
-Valid | Loss:0.43643 Acc: 79.215   
-saving model with acc 79.215  
+## Result:
+|\  |LSTM|BiLSTM|Transformer Encoder|
+|Acc|--- |------|-------------------|
 
-Epoch 3
-Train | Loss:0.42707 Acc: 80.055  
-Valid | Loss:0.42880 Acc: 79.852   
-saving model with acc 79.852  
-
-Epoch 4  
-Train | Loss:0.41364 Acc: 80.867  
-Valid | Loss:0.42656 Acc: 79.847   
-
-Epoch 5  
-Train | Loss:0.40156 Acc: 81.538  
-Valid | Loss:0.42488 Acc: 79.951   
-saving model with acc 79.951  
-
-
-## Testing Result  
+## Result Sample  
 
 0,my dog ate our dinner . no , seriously ... he ate it .   -> 0  
 1,omg last day sooon n of primary noooooo x im gona be swimming out of school wif the amount of tears am gona cry -> 0  
